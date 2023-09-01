@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Curt\\source\\repos\\UserSearch\\UserSearch\\UserSearch.csproj": {}
+    "C:\\Users\\Curt\\source\\repos\\Test\\UserSearch\\UserSearch\\UserSearch\\UserSearch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Curt\\source\\repos\\UserSearch\\UserSearch\\UserSearch.csproj": {
+    "C:\\Users\\Curt\\source\\repos\\Test\\UserSearch\\UserSearch\\UserSearch\\UserSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Curt\\source\\repos\\UserSearch\\UserSearch\\UserSearch.csproj",
+        "projectUniqueName": "C:\\Users\\Curt\\source\\repos\\Test\\UserSearch\\UserSearch\\UserSearch\\UserSearch.csproj",
         "projectName": "UserSearch",
-        "projectPath": "C:\\Users\\Curt\\source\\repos\\UserSearch\\UserSearch\\UserSearch.csproj",
+        "projectPath": "C:\\Users\\Curt\\source\\repos\\Test\\UserSearch\\UserSearch\\UserSearch\\UserSearch.csproj",
         "packagesPath": "C:\\Users\\Curt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Curt\\source\\repos\\UserSearch\\UserSearch\\obj\\",
+        "outputPath": "C:\\Users\\Curt\\source\\repos\\Test\\UserSearch\\UserSearch\\UserSearch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Curt\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OtzfKGoHf9U/ebP87E3biyuOqXGgT5g0ahH26PoahCe9RWSyKFEgujGJykrilXgHmt+zaZVUA6UVhd44lefRAg==",
+  "dgSpecHash": "ttVre/HTGnl0+agn2qaQPaivVs+KMcCZjNUOQhj8tA4T1mVfeuFbe6AaPR/DfEZyKnH63qz59w/o+5UWx8Lavw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Curt\\source\\repos\\UserSearch\\UserSearch\\UserSearch.csproj",
+  "projectFilePath": "C:\\Users\\Curt\\source\\repos\\Test\\UserSearch\\UserSearch\\UserSearch\\UserSearch.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
