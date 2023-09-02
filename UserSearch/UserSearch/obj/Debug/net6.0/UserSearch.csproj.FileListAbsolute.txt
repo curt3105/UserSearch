@@ -60,3 +60,4 @@ C:\Users\Curt\source\repos\Test\UserSearch\UserSearch\UserSearch\obj\Debug\net6.
 C:\Users\Curt\source\repos\Test\UserSearch\UserSearch\UserSearch\obj\Debug\net6.0\UserSearch.pdb
 C:\Users\Curt\source\repos\Test\UserSearch\UserSearch\UserSearch\obj\Debug\net6.0\UserSearch.genruntimeconfig.cache
 C:\Users\Curt\source\repos\Test\UserSearch\UserSearch\UserSearch\obj\Debug\net6.0\ref\UserSearch.dll
+C:\Users\Curt\source\repos\Test\UserSearch\UserSearch\UserSearch\bin\Debug\net6.0\UsersTest.xml
