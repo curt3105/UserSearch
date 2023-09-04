@@ -27,10 +27,16 @@
             .ToList();
     }
     
+    private void ClearSearch()
+    {
+        dislplayedUsers = allUsers;
+    }
+    
 }
 
 <input type="text" @bind="searchQuery" placeholder="Search by name" />
 <button @onclick="Search">Search</button>
+<button @onclick="ClearSearch">Clear Search</button>
 
 <table class="table">
     <!-- Render table rows based on data in the code-behind -->
