@@ -1,0 +1,47 @@
+@using UserSearch.Implementations
+@using UserSearch.Models
+
+@code {
+    
+    private List<User> allUsers = new List<User>();
+    private List<User> dislplayedUsers = new List<User>();
+
+    [Inject]
+    private UserService userService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+    // Fetch data from the PeopleService
+        allUsers = userService.GetUsers();
+        dislplayedUsers = allUsers;
+    }
+    private List<User> searchResults = new List<User>();
+
+    private string searchQuery = "";
+
+    private void Search()
+    {
+    // Filter the data client-side based on the searchQuery
+        dislplayedUsers = allUsers
+            .Where(person => person.FirstName.Contains(searchQuery, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
+    
+}
+
+<input type="text" @bind="searchQuery" placeholder="Search by name" />
+<button @onclick="Search">Search</button>
+
+<table class="table">
+    <!-- Render table rows based on data in the code-behind -->
+    <tbody>
+    @foreach (var user in dislplayedUsers)
+    {
+        <tr>
+            <td>@user.FirstName</td>
+            <td>@user.LastName</td>
+            <td>@user.Email</td>
+        </tr>
+    }
+    </tbody>
+</table>

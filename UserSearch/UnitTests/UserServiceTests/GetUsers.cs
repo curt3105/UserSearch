@@ -2,6 +2,7 @@ using UserSearch.Models;
 using Moq;
 using UserSearch.Interfaces;
 using AutoFixture;
+using UserSearch.Implementations;
 
 namespace UnitTests.UserServiceTests;
 
@@ -34,22 +35,5 @@ public class GetUsers
     }
 }
 
-public class UserService : IUsers
-{
-    private readonly IUsersRepository _repository;
 
-    public UserService(IUsersRepository repository)
-    {
-        _repository = repository;
-    }
-    public List<User> GetUsers()
-    {
-        var result = _repository.GetUsers();
-        return result.Users;
-    }
-}
 
-public interface IUsers
-{
-    List<User> GetUsers();
-}

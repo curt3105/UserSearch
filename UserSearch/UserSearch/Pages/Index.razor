@@ -1,9 +1,11 @@
 ﻿@page "/"
+@using UserSearch.Interfaces
+@using UserSearch.Implementations
 
-<PageTitle>Index</PageTitle>
+<PageTitle>User List</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Users</h1>
 
-Welcome to your new app.
+Welcome to user list. Here you can see a list of all the users.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<UserListView/>
