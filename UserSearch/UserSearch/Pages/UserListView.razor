@@ -23,8 +23,12 @@
     {
     // Filter the data client-side based on the searchQuery
         dislplayedUsers = allUsers
-            .Where(person => person.FirstName.Contains(searchQuery, StringComparison.OrdinalIgnoreCase))
-            .ToList();
+            .Where(person =>
+            string.IsNullOrWhiteSpace(searchQuery) ||
+            person.FirstName.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+            person.LastName.ToString().Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+            person.Email.Contains(searchQuery, StringComparison.OrdinalIgnoreCase))
+                        .ToList();
     }
     
     private void ClearSearch()
